@@ -81,7 +81,7 @@ theme: cactus
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git   
-  # repo: git@github.com:ildella/ildella.github.io.git  #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-  repo: https://github.com/ildella/ildella.github.io
-  branch: [master] #published
-  message: [message]  #leave this blank
+  repo: git@github.com:ildella/ildella.github.io.git  #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  # repo: https://github.com/ildella/ildella.github.io
+  branch: published
+  message: 
