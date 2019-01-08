@@ -17,7 +17,5 @@
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.3.1"
   },
-  "devDependencies": {
-    "hexo-renderer-jade": "0.4.1"
-  }
+  "devDependencies": {}
 }
