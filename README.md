@@ -1,0 +1,1 @@
+# ildella.net personal site and blog [![Netlify Status](https://api.netlify.com/api/v1/badges/fc255ca7-ff60-4785-8d62-e1a695b94875/deploy-status)](https://app.netlify.com/sites/ildellanet/deploys)
