@@ -1,14 +1,20 @@
 ---
 title: Parse a large text file using Node.js streams
 date: 2019-03-02 12:50:19
-tags:
+tags: [nodejs, streams, highlandjs, programming, data-processing]
 ---
 
-The excercise is to parse a large structured text file of 'around' 3TB. 
+Problem and solution: parse a large structured text file of 'around' 3TB with no memory or performance problem using Node.js
+
+<!-- more --> 
+
+{% asset_img "1.svg" "Parse large text files with Node.js streams" %}
 
 We use only Node.js builtin **modules** and **streams** support.
 
 We also use [Highland.js](http://highlandjs.org/) library for an elegant way to work with Streams. The library is not required but make the work much easier and drive us to an elegan way of writing code for this kind of tasks. Also is dependency free and written by [Caolan](https://github.com/caolan) who also built the more famous [async](https://github.com/caolan/async) utility.
+
+This article in the first of a chain "Non trivial solutions with little code" ;)
 
 ## The objective
 
@@ -57,6 +63,7 @@ const generator = (push, next) => {
 ## Solution for the first 2 questions
 
 ```javascript
+const __ = require('highland')
 const countWithReadline = () => {
   __(generator)
     .filter(line => {
