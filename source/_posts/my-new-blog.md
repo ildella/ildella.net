@@ -1,6 +1,6 @@
 ---
 title: 'My new blog :)'
-date: 2019-03-02 15:28:02
+date: 2019-03-02 10:08:04
 tags:
 ---
 Welcome to [my new blog](https://ildella.net), lol.
