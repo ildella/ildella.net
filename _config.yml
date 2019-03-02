@@ -102,3 +102,7 @@ search:
   path: search.json
   field: all
   content: true
+
+carbon:
+  background: 1D1F21
+  theme: seti
