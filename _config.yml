@@ -88,8 +88,8 @@ theme: cactus
 #   message: 
 
 feed:
-  type: atom
-  path: atom.xml
+  type: rss2
+  path: rss2.xml
   limit: 20
   hub:
   content:
