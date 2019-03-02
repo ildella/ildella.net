@@ -5,8 +5,8 @@ tags:
 ---
 Welcome to [my new blog](https://ildella.net), lol.
 
-I have a lot to say, let's hope I will also write a lot then. 
+I have a lot to say, let's write a lot then. 
 
-I will talk mostly about software technologies and software development and maybe I'll also prepare some more static pages about me and a few projects I'm involved with. 
+I will talk mostly about software technologies and software development.
 
 Enjoy :) 
