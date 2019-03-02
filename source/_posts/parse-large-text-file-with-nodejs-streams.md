@@ -1,8 +1,15 @@
 ---
 title: Parse a large text file using Node.js streams
+tags:
+  - nodejs
+  - streams
+  - highlandjs
+  - programming
+  - data-processing
+  - text-files
 date: 2019-03-02 12:50:19
-tags: [nodejs, streams, highlandjs, programming, data-processing, text-files]
 ---
+
 
 Problem and solution: parse and query a large structured 3GB text file.
 
