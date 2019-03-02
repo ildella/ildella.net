@@ -58,7 +58,7 @@ Now we can pipe the stream in an Highland stream. Let's see how.
 
 ## The Generator
 
-Highland source can be an *array*, a *stream* or a custom **Generator**. We need this last one. We combine `readline` module to reliably read lines of text and then them into an `highland` stream. 
+Highland source can be an *array*, a *stream* or a custom **Generator**. We need this last one. We combine `readline` module to reliably read lines of text and then push them into an `highland` stream. 
 
 Finally, we properly terminate the Highland stream. 
 
