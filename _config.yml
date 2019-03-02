@@ -15,8 +15,8 @@ timezone: Europe/London
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://ildella.net
 root: /
-# permalink: :year/:month/:day/:title/
-permalink: :year/:title/
+permalink: :year/:month/:day/:title/
+# permalink: :year/:title/
 permalink_defaults:
 
 # Directory
@@ -97,3 +97,8 @@ feed:
   content_limit_delim: ' '
   order_by: -date
   icon: /images/iconified/apple-touch-icon-180x180.png
+
+search:
+  path: search.json
+  field: all
+  content: true
