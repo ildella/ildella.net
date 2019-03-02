@@ -13,7 +13,7 @@ date: 2019-03-02 12:50:19
 
 Problem and solution: parse and query a large structured 3GB text file.
 
-{% asset_img "cover.svg" "Highland Generator from readline" %}
+{% asset_img "cover.png" "Highland Generator from readline" %}
 
 <!-- more --> 
 
