@@ -5,7 +5,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/probberechts
+projects_url: https://github.com/ildella
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -42,7 +42,7 @@ tags_overview: false
 #   - sort_updated: sort posts by last modification date instead of creation date.
 posts_overview:
   show_all_posts: false
-  post_count: 5
+  post_count: 8
   sort_updated: false
 
 # Customize the archive view.
@@ -72,7 +72,7 @@ logo:
   enabled: true
   width: 50
   height: 50
-  url: /images/logo.png
+  url: /images/profile.jpg
   gravatar: false
 
 # Customize the favicons.
@@ -86,13 +86,13 @@ logo:
 #   - gravatar: whether to create a favicon from your Gravatar
 favicon:
   desktop:
-    url: /images/favicon.ico
+    url: /images/iconified/favicon.ico
     gravatar: false
   android:
-    url: /images/favicon-192x192.png
+    url: /images/iconified/apple-touch-icon.png
     gravatar: false
   apple:
-    url: /images/apple-touch-icon.png
+    url: /images/iconified/apple-touch-icon.png
     gravatar: false
 
 # The color scheme that should be used to highlight codeblocks.
@@ -119,7 +119,7 @@ rss: false
 open_graph:
   fb_app_id:
   fb_admins:
-  twitter_id:
+  twitter_id: ildella
   google_plus:
 
 
