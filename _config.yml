@@ -86,3 +86,14 @@ theme: cactus
 #   # repo: https://github.com/ildella/ildella.github.io
 #   branch: gh-pages
 #   message: 
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: /images/iconified/apple-touch-icon-180x180.png
