@@ -86,7 +86,7 @@ const countLines = () => {
 }
 ```
 
-## Solution for the 2 questions
+## Solution for the 2nd questions
 
 We are asked to find the value for the 7th column at lines 432 and 43243.
 
