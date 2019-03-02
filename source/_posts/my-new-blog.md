@@ -3,7 +3,7 @@ title: 'My new blog :)'
 date: 2019-03-02 15:28:02
 tags:
 ---
-Welcome to [my new blog, lol](https://ildella.net)! 
+Welcome to [my new blog](https://ildella.net), lol.
 
 I have a lot to say, let's hope I will also write a lot then. 
 
