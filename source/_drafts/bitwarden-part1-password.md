@@ -46,9 +46,9 @@ In this blog I'll explain the first part.
 
 The first thing we need is being able to hash the password to match the one stored in the local data. 
 
-I went through the implementation of [Bitwarden CLI](https://github.com/bitwarden/cli) which, being written in TypeScript and with an object oriented style is... cumbersome, I have to admit. The reader get easily lost between lots of Interfaces and Objects and Generics and countless buffer to array buffer to string transformations... but in the end the actual code is **very** simple, despite being scattered around many files with lots boilerplate code structure that make it hard to understand.
+I went through the implementation of [Bitwarden CLI](https://github.com/bitwarden/cli) which, being written in TypeScript and with an object oriented style is... cumbersome, I have to admit. The reader get easily lost between lots of Interfaces, Objects, Generics and countless buffer to array buffer to string transformations... but in the end the actual code is **very** simple, despite being scattered around many files.
 
-It's actually **3 lines** of code with some preparation:
+It's actually **3 lines** of code, with some preparation:
 
 First, we require a few things from Node.js builtin modules:
 
