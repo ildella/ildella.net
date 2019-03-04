@@ -19,13 +19,13 @@ Today is the day I remove all my passwords from Firefox and go full @bitwarden_a
 
 As cryptography and security is my most recent interest in software engineering, I was curious on how Bitwarden works. 
 
-In a nutshell, Bitwarden has:
+In a nutshell:
 
-  1. it creates a JSON storage (called data.json) with all the user data
+  1. creates a JSON storage (called data.json) with all the user data
   2. This data.json has encrypted values. The encryption is what we'll understand in this series of articles
-  3. Then Bitwarden sync data.json with a remote server
-  4. This allow many clients to sync data.json: the browser extensions as well as the command line application. 
-  5. As far as I understand, there is only one master password that will grant you access to *both* your Bitwarden account and the same password is used to decrypt data. 
+  3. Bitwarden sync data.json with a remote server. This allows different clients to sync with the same data the browser extensions as well as the command line application. 
+  4. This is different from how a normal Web Application works. The data are not "served" from the server each time, they are synced between the clients and read from a local file.
+  5. As far as I understand, there is only one master password that will grant access to the Bitwarden account and the same password is used to encrypt/decrypt data. 
 
 This last part is something that I am not completely at peace at. I would have used two different passwords. 
 A partial explanation I have for now is that the key used to encrypt/decript data is NOT the actual password, but a token that changes each session, that is based on the password but is not the password. 
