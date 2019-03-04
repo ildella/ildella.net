@@ -1,5 +1,5 @@
 ---
-title: body-movin
+title: Body Movin
 tags:
   - music
 date: 2019-03-04 12:46:36
