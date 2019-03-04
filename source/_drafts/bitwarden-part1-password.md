@@ -40,7 +40,7 @@ Security in Bitwarden is a complex and non-small topic of course. But it's possi
 
 The main task is being able to unlock my local database and then decipher the encrypted data. This actually consist of 2 parts: hash the password to match Bitwarden hash, then generate and store a valid session token that is used to decrypt data.
 
-In this blog I'll explain the first part.
+In this post I'll explain the first part.
 
 ## Part 1 - Hash the password
 
