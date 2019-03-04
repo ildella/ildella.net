@@ -85,8 +85,10 @@ return Buffer.from(rehashed).toString('base64')
 ```
 
 The length is 32 because the algorithm is 256 bit. Had Bitwarden used a 512 bit algorithm  then lenght would have been 64.
+
 5000 and then 1 are the number of iterations. 
-Now we have the base64 version of the password, double hashed with 2 pbkdf2 functions, that maches the field `keyHash` in Bitwarden data.json
+
+Now we have the base64 version of the password, that maches the field `keyHash` in Bitwarden data.json
 
 ## What is next
 
