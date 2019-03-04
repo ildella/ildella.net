@@ -5,7 +5,7 @@ tags: [security, cryptography, programmming, nodejs]
 
 In December 2018 I removed all my passwords from Firefox builtin manager and started using [Bitwarden](https://bitwarden.com/).
 
-Bitwarden is a password manager like LastPass and others. It offerst the usual browsers extensions and an enterprise plan, plus:
+Bitwarden is a password manager like LastPass and others. It offers the usual browsers extensions and an enterprise plan, plus:
 
   * is Open Source 
   * has a command line interface
