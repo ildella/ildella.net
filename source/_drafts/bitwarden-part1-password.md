@@ -92,7 +92,10 @@ Now we have the base64 version of the password, that maches the field `keyHash` 
 
 ## What is next
 
-The next part is about generating a session token, storing it encrypted in a proper way in the data.json. 
-When that is done, I can use the bitwarden-cli itself and the session I generated from myy code to read data.json. At least I think is going to be this way, I only am halfaway throug it :)
+The next part is about generating a session token (easy) and storing it encrypted in a proper way in the data.json (not easy).
+
+When that is done, I can use the bitwarden-cli itself with the session key I generated from my own code to read the actual data.json. 
+
+At least that's what I think now, I only am halfaway throug it :)
 
 To the next article!
