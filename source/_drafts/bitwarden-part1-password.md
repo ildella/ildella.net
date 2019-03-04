@@ -34,6 +34,8 @@ I need to dig more into the details to understand this better.
 
 ## Bitwarden security
 
+{% asset_img "cover.svg" "Highland Generator from readline" %}
+
 As the code is [Open Source on Github](https://github.com/bitwarden) I looked at the CLI as building interactice CLI apps is another recent passion of mine to understand some details.
 
 Security in Bitwarden is a complex and non-small topic of course. But it's possible and educational to understand it one piece at a time.
