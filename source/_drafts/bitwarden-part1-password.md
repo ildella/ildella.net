@@ -74,7 +74,7 @@ Finally, let's get to the ciphers!
 Now, **pbkdf2** [(Password-Based Key Derivation Function 2)](https://nodejs.org/api/crypto.html#crypto_crypto_pbkdf2_password_salt_iterations_keylen_digest_callback), as far as I undertand, strengthen the hash we create from the password, making lots of iterations of an HMAC function. 
 The details on how and why are for cipherpunks and another type of article, but is a pretty accepted thing. In fact is part of builtin `crypto`  module in Node.js. 
 
-What Bitwarden does is applying the pbkdf2 function the twice, the second time the first hash as password and the original password as salt. It's easier to see the code:
+What Bitwarden does is applying the pbkdf2 function twice, the second time the first hash as password and the original password as salt. It's easier to read the code:
 
 ```javascript
 const algorithm = 'sha256'
