@@ -5,19 +5,21 @@ tags: [security, cryptography, programmming, nodejs]
 
 In December 2018 I removed all my passwords from Firefox builtin manager and started using [Bitwarden](https://bitwarden.com/).
 
+{% blockquote @ildella https://twitter.com/ildella/status/1076889952250707969 %}
+Today is the day I remove all my passwords from Firefox and go full @bitwarden_app.
+{% endblockquote %}
+
 Bitwarden is a password manager like LastPass and others. It offers the usual browsers extensions and an enterprise plan, plus:
 
   * is Open Source 
   * has a command line interface
   * you can host your own server
 
-{% blockquote @ildella https://twitter.com/ildella/status/1076889952250707969 %}
-Today is the day I remove all my passwords from Firefox and go full @bitwarden_app.
-{% endblockquote %}
-
 ## How Bitwarden works
 
 As cryptography and security is my most recent interest in software engineering, I was curious on how Bitwarden works. 
+
+{% asset_img "cover.svg" "" %}
 
 In a nutshell:
 
@@ -34,7 +36,6 @@ I need to dig more into the details to understand this better.
 
 ## Bitwarden security
 
-{% asset_img "cover.svg" "Highland Generator from readline" %}
 
 As the code is [Open Source on Github](https://github.com/bitwarden) I looked at the CLI as building interactice CLI apps is another recent passion of mine to understand some details.
 
