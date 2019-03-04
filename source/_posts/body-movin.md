@@ -1,7 +1,10 @@
 ---
 title: body-movin
-tags: [music]
+tags:
+  - music
+date: 2019-03-04 12:46:36
 ---
+
 
 {% blockquote Beasty Boys, Body Movin - 1998 %}
 You can't explain to people this type of mind frame
