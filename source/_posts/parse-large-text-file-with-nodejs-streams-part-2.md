@@ -7,7 +7,9 @@ tags:
   - programming
   - data-processing
   - text-files
+date: 2019-03-07 07:56:25
 ---
+
 
 Have a look at the [part 1](/2019/03/02/parse-large-text-file-with-nodejs-streams) for the necessary context. Here we go.
 
