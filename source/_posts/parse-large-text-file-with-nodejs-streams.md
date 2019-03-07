@@ -19,7 +19,7 @@ Problem and solution: parse and query a large structured 3GB text file.
 
 ## Background
 
-Last fall I was browsing the Web and I did stumbled upon this [article](https://itnext.io/using-node-js-to-read-really-really-large-files-pt-1-d2057fe76b33) which poses a problem and describes a solution. 
+Last fall I was browsing the Web and I stumbled upon this [article](https://itnext.io/using-node-js-to-read-really-really-large-files-pt-1-d2057fe76b33) which poses a problem and describes a solution. 
 
 I did not like the solution that much, so I wrote another one. 
 
