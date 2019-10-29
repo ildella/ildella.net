@@ -27,6 +27,7 @@
     "opentimestamps": "0.4.7"
   },
   "scripts": {
+    "opentimestamps": "ots-cli.js s ",
     "start": "hexo server",
     "draft": "hexo server --draft"
   }
