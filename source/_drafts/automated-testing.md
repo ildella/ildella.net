@@ -58,3 +58,4 @@ The limitations of the external systems are an integral part of the work of buil
 
 Glad you asked. In this framework, E2E tests are not there mostly to consolidate specs with non-devs, test that all pieces are working together nicely. Is very hard that all feature specifications are tested thoroughly both at unit level and at E2E level. 
 
+A test is not there just to help you build a feature, also to test that regression do not happen. 
