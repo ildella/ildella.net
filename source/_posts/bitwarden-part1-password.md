@@ -1,9 +1,17 @@
 ---
 title: Deconstructing Bitwarden Part 1 - password
-tags: [security, cryptography, programmming, nodejs]
+tags:
+  - security
+  - cryptography
+  - programmming
+  - nodejs
+date: 2019-11-18 10:47:36
 ---
 
+
 In December 2018 I removed all my passwords from Firefox built-in manager and started using [Bitwarden](https://bitwarden.com/).
+
+* Note: I am publishing this in November 2019 despite having written this almost a year ago. For some reason.
 
 {% blockquote @ildella https://twitter.com/ildella/status/1076889952250707969 %}
 Today is the day I remove all my passwords from Firefox and go full @bitwarden_app.
