@@ -3,7 +3,7 @@ title: Deconstructing Bitwarden Part 1 - password
 tags: [security, cryptography, programmming, nodejs]
 ---
 
-In December 2018 I removed all my passwords from Firefox builtin manager and started using [Bitwarden](https://bitwarden.com/).
+In December 2018 I removed all my passwords from Firefox built-in manager and started using [Bitwarden](https://bitwarden.com/).
 
 {% blockquote @ildella https://twitter.com/ildella/status/1076889952250707969 %}
 Today is the day I remove all my passwords from Firefox and go full @bitwarden_app.
@@ -30,7 +30,7 @@ In a nutshell:
   5. As far as I understand, there is only one master password that will grant access to the Bitwarden account and the same password is used to encrypt/decrypt data. 
 
 This last part is something that I am not completely at peace at. I would have used two different passwords. 
-A partial explanation I have for now is that the key used to encrypt/decript data is NOT the actual password, but a token that changes each session, that is based on the password but is not the password. 
+A partial explanation I have for now is that the key used to encrypt/decript data is not the actual password, but a token that changes each session, that is based on the password but is not the password. 
 
 I need to dig more into the details to understand this better. 
 
@@ -48,9 +48,9 @@ In this post I'll explain the first part.
 
 The first thing we need is being able to hash the password to match the one stored in the local data. 
 
-I went through the implementation of [Bitwarden CLI](https://github.com/bitwarden/cli) which, being written in TypeScript and with an object oriented style is... cumbersome, I have to admit. The reader get easily lost between lots of Interfaces, Objects, Generics and countless buffer to array buffer to string transformations... but in the end the actual code is **very** simple, despite being scattered around many files.
+I went through the implementation of [Bitwarden CLI](https://github.com/bitwarden/cli) which, being written in TypeScript and with an object oriented style is a little... verbose for my taste. It's very well sorted, still I get lost between lots of Interfaces, Objects, Generics and many buffer to array buffer to string transformations... but in the end the code is simple and concise, despite being scattered around many files.
 
-It's actually **3 lines** of code, with some preparation:
+Turns out the relevany code, after some preparation / requirements, is just **3 lines**.
 
 First, we require a few things from Node.js builtin modules:
 
@@ -74,7 +74,7 @@ const salt = bwConfig.userEmail
 Finally, let's get to the ciphers!
 
 Now, **pbkdf2** [(Password-Based Key Derivation Function 2)](https://nodejs.org/api/crypto.html#crypto_crypto_pbkdf2_password_salt_iterations_keylen_digest_callback), as far as I undertand, strengthen the hash we create from the password, making lots of iterations of an HMAC function. 
-The details on how and why are for cipherpunks and another type of article, but is a pretty accepted thing. In fact is part of builtin `crypto`  module in Node.js. 
+The details on how and why are for cipherpunks and another type of article (from someone who actually understand about cryptograpyhy...), but is an accepted thing. In fact is part of builtin `crypto`  module in Node.js. 
 
 What Bitwarden does is applying the pbkdf2 function twice, the second time using the first hash as password and the original password as salt. It's easier to read the code:
 
