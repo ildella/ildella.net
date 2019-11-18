@@ -44,9 +44,9 @@ I need to dig more into the details to understand this better.
 
 ## Bitwarden security
 
-As the code is [Open Source on Github](https://github.com/bitwarden) I looked at the CLI as building interactice CLI apps is another recent passion of mine to understand some details.
+As the code is [Open Source on Github](https://github.com/bitwarden) I looked at the CLI as building interactive CLI apps is another recent passion of mine to understand some details.
 
-Security in Bitwarden is a complex and non-small topic of course. But it's possible and educational to understand it one piece at a time.
+Security in Bitwarden is a complex and a non trivial topic of course. But it's possible and educational to understand it one piece at a time.
 
 The main task is being able to unlock my local database and then decipher the encrypted data. This actually consist of 2 parts: hash the password to match Bitwarden hash, then generate and store a valid session token that is used to decrypt data.
 
