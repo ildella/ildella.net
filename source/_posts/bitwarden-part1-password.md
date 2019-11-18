@@ -56,7 +56,7 @@ In this post I'll explain the first part.
 
 The first thing we need is being able to hash the password to match the one stored in the local data. 
 
-I went through the implementation of [Bitwarden CLI](https://github.com/bitwarden/cli) which, being written in TypeScript and with an object oriented style is a little... verbose for my taste. It's very well sorted, still I get lost between lots of Interfaces, Objects, Generics and many buffer to array buffer to string transformations... but in the end the code is simple and concise, despite being scattered around many files.
+I went through the implementation of [Bitwarden CLI](https://github.com/bitwarden/cli) which, being written in TypeScript and with an object oriented style is a little... verbose for my taste. It's very well sorted, still I get lost between lots of Interfaces, Objects, Generics and many buffer to array buffer to string transformations... but in the end the code can be simple and concise, is just scattered around many files.
 
 Turns out the relevany code, after some preparation / requirements, is just **3 lines**.
 
