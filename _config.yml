@@ -5,15 +5,15 @@
 # Site
 title: ildella
 subtitle:
-description:
-keywords:
+description: 
+keywords: software development, computers, networks
 author: Daniele Dellafiore
 language:
 timezone: Europe/London
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://ildella.net
+url: https://ildella.net
 root: /
 permalink: :year/:month/:day/:title/
 # permalink: :year/:title/
@@ -74,29 +74,52 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-# theme: landscape
-# theme: terminal
 theme: cactus
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-# deploy:
-#   type: git   
-#   repo: git@github.com:ildella/ildella.github.io.git  #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-#   # repo: https://github.com/ildella/ildella.github.io
-#   branch: gh-pages
-#   message: 
+theme_config:
+  projects_url: http://github.com/ildella
+  # colorscheme: white
+  # colorscheme: light
+  # colorscheme: classic
+  colorscheme: dark
+  nav:
+    Home: /
+    About: /about/
+    Writing: /archives/
+    Projects: http://github.com/ildella
+  posts_overview:
+    show_all_posts: false
+    post_count: 7
+  social_links:
+    github: https://github.com/ildella/
+    twitter: https://twitter.com/ildella/
+    # facebook: /
+    linkedin: https://linkedin.com/daniele-dellafiore/
+    # mail: /
+  logo:
+    enabled: true
+    width: 75
+    height: 75
+    url: /profile.jpg
+    gravatar: false
+  page_width: 48
+  # rss: true
 
 feed:
-  type: rss2
-  path: rss2.xml
+  type:
+    - atom
+    - rss2
+  path:
+    - atom.xml
+    - rss2.xml
   limit: 20
   hub:
   content:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
-  icon: /images/iconified/apple-touch-icon-180x180.png
+  autodiscovery: true
+  # icon: /images/iconified/apple-touch-icon-180x180.png
 
 search:
   path: search.json
