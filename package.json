@@ -30,6 +30,7 @@
   },
   "scripts": {
     "opentimestamps": "ots-cli.js s ",
+    "update-theme": "git submodule update --remote",
     "start": "hexo server",
     "draft": "hexo server --draft"
   }
