@@ -10,7 +10,7 @@ Personal site and blog about software development, computer and networks.
 git clone --recurse-submodules git@github.com:ildella/ildella.net.git
 ```
 
-or a simple clone and then
+or a simple `clone` and then
 
 ```shell
 git submodule update --init --recursive
