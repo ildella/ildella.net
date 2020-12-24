@@ -22,3 +22,12 @@ git submodule update --init --recursive
 yarn
 yarn start
 ```
+
+## Blog
+
+Full [command docs](https://hexo.io/docs/commands)
+
+```shell
+hexo new [layout] <title>
+```
+
