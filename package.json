@@ -35,8 +35,8 @@
     "opentimestamps": "ots-cli.js s ",
     "update-theme": "git submodule update --remote",
     "init-theme": "git submodule update --remote --init --force",
-    "draft.new": "hexo new draft '$1'",
+    "hexo.new.draft": "hexo new draft '$1'",
     "start": "hexo server",
-    "draft": "hexo server --draft"
+    "start.draft": "hexo server --draft"
   }
 }
